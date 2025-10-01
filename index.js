@@ -1,4 +1,4 @@
-/*//================= question 1===================
+//================= question 1===================
 var num = window.prompt("1-enter your input");
 console.log(num)
 
@@ -175,7 +175,7 @@ for ( var i = 1; i <= pow; i++) {
 }
 
 console.log(result);
-*/
+
 
 //==============question 12 ========================
 
