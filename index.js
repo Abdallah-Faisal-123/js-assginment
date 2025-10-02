@@ -200,3 +200,295 @@ console.log("Total marks = " + total);
 console.log("Average Marks = " + average);
 console.log("Percentage = " + percentage + "%");
 
+
+//============== question 13 =========================
+
+var num = +window.prompt("13-enter month number:");
+
+switch (num) {
+    case 1:
+        console.log("Days in month: 31")
+        break;
+    case 2:
+        console.log("Days in month: 28")
+        break;
+        case 3:
+        console.log("Days in month: 31")
+        break;
+        case 4:
+        console.log("Days in month: 30")
+        break;
+        case 5:
+        console.log("Days in month: 31")
+        break;
+        case 6:
+        console.log("Days in month: 30")
+        break;
+        case 7:
+        console.log("Days in month: 31")
+        break;
+        case 8:
+        console.log("Days in month: 31")
+        break;
+        case 9:
+        console.log("Days in month: 30")
+        break;
+        case 10:
+        console.log("Days in month: 31")
+        break;
+        case 11:
+        console.log("Days in month: 30")
+        break;
+        case 12:
+        console.log("Days in month: 31")
+        break;
+    default:
+        console.log("invalid number")
+        break;
+}
+
+
+//============== question 14 =========================
+
+var physics = +window.prompt("14-Enter marks of Physics: ");
+var chemistry = +window.prompt("14-Enter marks of Chemistry: ");
+var biology = +window.prompt("14-Enter marks of Biology: ");
+var mathematics = +window.prompt("14-Enter marks of Mathematics: ");
+var computer = +window.prompt( "14-Enter marks of Computer: ");
+
+
+var total = physics + chemistry + biology + mathematics + computer
+var percentage = (total / 500) * 100
+
+
+if (percentage >= 90)
+    grade = "A"
+else if (percentage >= 80)
+    grade = "B"
+else if (percentage >= 70)
+   grade = "C"
+else if (percentage >= 60)
+    grade = "D"
+else if (percentage >= 40)
+    grade = "E"
+else
+grade = "F"
+
+
+console.log("\nTotal Marks =", total)
+console.log("Percentage =", percentage, "%")
+console.log("Grade =", grade)
+
+//============== question 15 =======================
+
+var num = +window.prompt("15-enter month number:");
+
+switch (num) {
+    case 1:
+        console.log("Days in month: 31")
+        break;
+    case 2:
+        console.log("Days in month: 28")
+        break;
+        case 3:
+        console.log("Days in month: 31")
+        break;
+        case 4:
+        console.log("Days in month: 30")
+        break;
+        case 5:
+        console.log("Days in month: 31")
+        break;
+        case 6:
+        console.log("Days in month: 30")
+        break;
+        case 7:
+        console.log("Days in month: 31")
+        break;
+        case 8:
+        console.log("Days in month: 31")
+        break;
+        case 9:
+        console.log("Days in month: 30")
+        break;
+        case 10:
+        console.log("Days in month: 31")
+        break;
+        case 11:
+        console.log("Days in month: 30")
+        break;
+        case 12:
+        console.log("Days in month: 31")
+        break;
+    default:
+        console.log("invalid number")
+        break;
+}
+
+
+
+//====================== question 16 =========================
+
+var char = window.prompt("16-enter your character");
+
+switch (char) {
+    case 'a':
+        console.log(char + " is a vowel")
+        break;
+      case 'e':
+        console.log(char + " is a vowel")
+        break;
+      case 'l':
+        console.log(char + " is a vowel")
+        break;
+      case 'o':
+        console.log(char + " is a vowel")
+        break;
+      case 'u':
+        console.log(char + " is a vowel")
+        break;
+      
+        case 'A':
+        console.log(char + " is a vowel")
+        break;
+      case 'E':
+        console.log(char + " is a vowel")
+        break;
+      case 'L':
+        console.log(char + " is a vowel")
+        break;
+      case 'O':
+        console.log(char + " is a vowel")
+        break;
+      case 'U':
+        console.log(char + " is a vowel")
+        break;
+
+    default:
+        console.log(char + " is a Consonant")
+        break;
+}
+
+
+
+//================== question 17 ============================
+
+var num1 = +window.prompt("17-enter your first number ");
+var num2 = +window.prompt("17-enter your last  number ");
+
+var m ;
+
+if(num1 > num2)
+{
+    m = 1;
+}
+else if(num1 < num2)
+{
+    m = 2;
+}
+else if(num1 == num2)
+{
+    m = 0;
+}
+
+
+
+switch (m) {
+    case 1:
+         console.log("max num is : " + num1);
+        break;
+     case 2:
+         console.log("max num is : " + num2);
+        break;
+    case 0:
+        console.log("Equals");
+        break;
+    default:
+        console.log("invalid number")
+        break;
+}
+
+
+
+//================== question 18 ==================
+var num = +window.prompt("18-enter your even or odd number ");
+
+var n;
+
+
+if(num %2 === 0)
+{
+  n = 1;  
+}
+else{
+   n = 0;
+}
+
+
+switch (n) {
+    case 1:
+         console.log("odd")
+        break;
+    case 0:
+         console.log("even")
+        break;
+    default:
+        console.log("invalid number")
+        break;
+}
+
+
+
+//============= question 19 ============================
+
+var num = +window.prompt("19-enter your negative or positive number");
+
+
+var p;
+
+
+if(num > 0)
+{
+  p = 1;  
+}
+else if( num < 0)
+{
+   p = 0;
+}
+
+switch (p) {
+    case 1:
+         console.log("positive")
+        break;
+    case 0:
+         console.log("nigative")
+        break;
+    default:
+        console.log("invalid number")
+        break;
+}
+
+
+
+//================ question 20 ==========================
+
+var num1 = +window.prompt("20-enter your first number")
+var op  = window.prompt("20-enter your operator")
+var num2 = +window.prompt("20-enter your last number")
+
+switch (op) {
+    case '+':
+        console.log(num1 + num2)      
+        break;
+        case '-':
+        console.log(num1 - num2)      
+        break;case '*':
+        console.log(num1 * num2)      
+        break;case '/':
+        console.log(num1 / num2)      
+        break; 
+
+    default:
+        console.log("invalid number")
+        break;
+}
